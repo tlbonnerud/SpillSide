@@ -1,0 +1,22 @@
+# Filer i public/ som ikke skal lastes opp til Cloudflare
+.DS_Store
+lokal/README.md
+lokal/hent.sh
+lokal/skaler.py
+lokal/manifest/
+# Originaler over 25 MiB: hent.sh legger ved <fil>.br (evt. .partN), src/worker.js serverer dem
+lokal/legendum/Incremental_Fantasy.wasm
+lokal/legendum/Incremental_Fantasy.pck
+lokal/die-in-the-dungeon/Build/ditd.data
+lokal/wildfire/Build/WEBGL_UPDATED.wasm.unityweb
+lokal/get-yoked-2/Build/Web.data
+lokal/get-yoked-2/Build/Web.wasm
+lokal/tanuki-sunset/Build/WebGL.data.unityweb
+lokal/dynamine/index.wasm
+lokal/dynamine/index.pck
+lokal/klifur/Build/Web.wasm
+lokal/get-yoked-2/StreamingAssets/Master.bank
+
+# Aldri last opp wrangler-cache som havner feil
+.wrangler/
+**/.wrangler/

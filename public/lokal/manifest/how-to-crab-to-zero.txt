@@ -1,0 +1,9 @@
+https://html-classic.itch.zone/html/19377373
+index.html
+GMTK26.js
+GMTK26.wasm
+GMTK26.data
+game.unx
+sounds.dat
+music.dat
+audio-worklet.js

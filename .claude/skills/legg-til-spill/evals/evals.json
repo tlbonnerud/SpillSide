@@ -1,0 +1,71 @@
+{
+  "skill_name": "legg-til-spill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "legg inn denne også https://ncase.itch.io/wbwwb",
+      "expected_output": "We Become What We Behold ligger som lokal kopi i public/lokal/wbwwb, med oppføring i games.json, cover, manifest, blokk i hent.sh, README-rader, og spiller uten manglende filer i biblioteket.",
+      "files": [],
+      "expectations": [
+        "games.json har en komplett oppføring for wbwwb (tittel, forfattere med lenke, itch-lenke, beskrivelse, motor, kategorier, cover, coverSource, ratio, width, order)",
+        "wbwwb: alle kategoriene i oppføringen finnes i categories-listen (ny kategori har fått ikon i app.js)",
+        "wbwwb: beskrivelsen er skrevet på norsk",
+        "wbwwb: coveret ligger som WebP i public/covers og coverSize stemmer med filen",
+        "wbwwb: spillet ligger lokalt under public/lokal/wbwwb og itch sitt hotlink-skript er fjernet fra index.html",
+        "wbwwb: manifestet public/lokal/manifest/wbwwb.txt har base-URL på første linje og dekker alle lokale filer",
+        "wbwwb: hent.sh har en blokk for spillet og passerer sh -n",
+        "wbwwb: README.md og public/lokal/README.md nevner spillet",
+        "wbwwb: laster i nettleseren uten manglende filer eller sperretekst, og vises med én iframe i biblioteket",
+        "wbwwb: spillet får plass i bibliotekets ramme (ikke kuttet til høyre eller nede)",
+        "de 18 eksisterende oppføringene i games.json er uendret",
+        "ingen itch.io-embed er lagt inn (ingen embed-upload i games.json, app.js eller index.html)",
+        "svaret til brukeren finnes, er på norsk og sier at deploy gjenstår"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "kan du legge til disse to? https://mattmakesgames.itch.io/celesteclassic og https://sokpop.itch.io/stacklands",
+      "expected_output": "Celeste Classic (PICO-8) legges inn fullt ut. Stacklands har ingen HTML5-versjon og legges ikke inn; svaret forklarer det.",
+      "files": [],
+      "expectations": [
+        "games.json har en komplett oppføring for celesteclassic (tittel, forfattere med lenke, itch-lenke, beskrivelse, motor, kategorier, cover, coverSource, ratio, width, order)",
+        "celesteclassic: alle kategoriene i oppføringen finnes i categories-listen (ny kategori har fått ikon i app.js)",
+        "celesteclassic: beskrivelsen er skrevet på norsk",
+        "celesteclassic: coveret ligger som WebP i public/covers og coverSize stemmer med filen",
+        "celesteclassic: spillet ligger lokalt under public/lokal/celesteclassic og itch sitt hotlink-skript er fjernet fra index.html",
+        "celesteclassic: manifestet public/lokal/manifest/celesteclassic.txt har base-URL på første linje og dekker alle lokale filer",
+        "celesteclassic: hent.sh har en blokk for spillet og passerer sh -n",
+        "celesteclassic: README.md og public/lokal/README.md nevner spillet",
+        "celesteclassic: laster i nettleseren uten manglende filer eller sperretekst, og vises med én iframe i biblioteket",
+        "celesteclassic: spillet får plass i bibliotekets ramme (ikke kuttet til høyre eller nede)",
+        "de 18 eksisterende oppføringene i games.json er uendret",
+        "ingen itch.io-embed er lagt inn (ingen embed-upload i games.json, app.js eller index.html)",
+        "svaret til brukeren finnes, er på norsk og sier at deploy gjenstår",
+        "Stacklands er ikke lagt inn i games.json",
+        "svaret forklarer at Stacklands ikke har noen nettleserversjon og derfor ikke ble lagt inn"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "ta med dette spillet i biblioteket: https://ncase.itch.io/coming-out-simulator-2014",
+      "expected_output": "Coming Out Simulator 2014 legges inn fullt ut med stående sideforhold (360x640) og spiller i biblioteket.",
+      "files": [],
+      "expectations": [
+        "games.json har en komplett oppføring for coming-out-simulator-2014 (tittel, forfattere med lenke, itch-lenke, beskrivelse, motor, kategorier, cover, coverSource, ratio, width, order)",
+        "coming-out-simulator-2014: alle kategoriene i oppføringen finnes i categories-listen (ny kategori har fått ikon i app.js)",
+        "coming-out-simulator-2014: beskrivelsen er skrevet på norsk",
+        "coming-out-simulator-2014: coveret ligger som WebP i public/covers og coverSize stemmer med filen",
+        "coming-out-simulator-2014: spillet ligger lokalt under public/lokal/coming-out-simulator-2014 og itch sitt hotlink-skript er fjernet fra index.html",
+        "coming-out-simulator-2014: manifestet public/lokal/manifest/coming-out-simulator-2014.txt har base-URL på første linje og dekker alle lokale filer",
+        "coming-out-simulator-2014: hent.sh har en blokk for spillet og passerer sh -n",
+        "coming-out-simulator-2014: README.md og public/lokal/README.md nevner spillet",
+        "coming-out-simulator-2014: laster i nettleseren uten manglende filer eller sperretekst, og vises med én iframe i biblioteket",
+        "coming-out-simulator-2014: spillet får plass i bibliotekets ramme (ikke kuttet til høyre eller nede)",
+        "de 18 eksisterende oppføringene i games.json er uendret",
+        "ingen itch.io-embed er lagt inn (ingen embed-upload i games.json, app.js eller index.html)",
+        "svaret til brukeren finnes, er på norsk og sier at deploy gjenstår",
+        "sideforholdet (ratio) er stående, altså høyere enn bredt"
+      ]
+    }
+  ]
+}

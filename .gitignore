@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+.wrangler/
+# Spillfilene i public/lokal/ tilhører spillutviklerne og hentes med public/lokal/hent.sh
+public/lokal/*
+!public/lokal/README.md
+!public/lokal/hent.sh
+!public/lokal/skaler.py
+!public/lokal/manifest/
+# Coverbildene tilhører også spillutviklerne og hentes med public/lokal/hent.sh covers
+public/covers/
+__pycache__/

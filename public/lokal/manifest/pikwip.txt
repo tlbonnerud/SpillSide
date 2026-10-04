@@ -1,0 +1,6 @@
+https://html-classic.itch.zone/html/6774401/Pikwip
+Build/Pikwip.data
+Build/Pikwip.framework.js
+Build/Pikwip.loader.js
+Build/Pikwip.wasm
+index.html

@@ -1,0 +1,27 @@
+{
+  // Cloudflare Workers med Static Assets: alt i public/ serveres som statiske filer.
+  // src/worker.js kjører bare for stier som ikke finnes som fil, og setter sammen filer som
+  // er delt i biter fordi de er over 25 MiB (se public/lokal/hent.sh).
+  // Deploy: wrangler deploy
+  "name": "spillside",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-24",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // API-ruter må alltid nå workeren, selv om en fil skulle finnes på samme sti.
+    "run_worker_first": ["/api/*"]
+  },
+  // Leaderboard: brukere, økter og poeng i D1 (SQLite). Skjema i migrations/.
+  // Lokalt: wrangler d1 migrations apply spillside-leaderboard --local
+  // Prod:   wrangler d1 migrations apply spillside-leaderboard --remote
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "spillside-leaderboard",
+      "database_id": "fc8f20c7-240b-4266-8f81-d89827631b53",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": { "enabled": true }
+}

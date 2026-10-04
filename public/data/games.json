@@ -1,0 +1,767 @@
+{
+  "categories": [
+    {
+      "id": "puslespill",
+      "name": "Puslespill"
+    },
+    {
+      "id": "action",
+      "name": "Action"
+    },
+    {
+      "id": "arkade",
+      "name": "Arkade"
+    },
+    {
+      "id": "racing",
+      "name": "Racing"
+    },
+    {
+      "id": "sport",
+      "name": "Sport"
+    },
+    {
+      "id": "kortspill",
+      "name": "Kortspill"
+    },
+    {
+      "id": "rollespill",
+      "name": "Rollespill"
+    },
+    {
+      "id": "strategi",
+      "name": "Strategi"
+    },
+    {
+      "id": "simulering",
+      "name": "Simulering"
+    },
+    {
+      "id": "idle",
+      "name": "Idle"
+    }
+  ],
+  "games": [
+    {
+      "slug": "how-to-crab-to-zero",
+      "title": "How to Crab to Zero",
+      "order": 1,
+      "authors": [
+        {
+          "name": "Four Quarters team",
+          "url": "https://fourquarters.itch.io"
+        }
+      ],
+      "itch": "https://fourquarters.itch.io/how-to-crab-to-zero",
+      "description": "Puslespill der en liten robotkrabbe må redde verden før energien tar slutt. Kasseskyving i pikselgrafikk.",
+      "engine": "GameMaker",
+      "categories": [
+        "puslespill"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 960,
+      "ratio": "16 / 9",
+      "cover": "covers/how-to-crab-to-zero.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzI4ODIwMTA2LnBuZw==/original/68u7e8.png",
+      "pixelArt": false,
+      "sizeMB": 43,
+      "fetched": "2026-09-24",
+      "notes": "GameMaker-eksport laget til GMTK Game Jam 2026. Annonseskriptet i itch-versjonen er fjernet.",
+      "score": {
+        "kilde": "iframe-tittel",
+        "monster": "Level (\\d+)",
+        "enhet": "brett",
+        "retning": "hoyest",
+        "maks": 40,
+        "minSek": 60,
+        "tekst": "Høyeste brett du har nådd. Spillet lagrer ikke framgang selv, så tallet leses fra brettnummeret mens du spiller innlogget."
+      }
+    },
+    {
+      "slug": "multi-modal",
+      "title": "Multi Modal Transit",
+      "order": 2,
+      "authors": [
+        {
+          "name": "southlondonsilicon",
+          "url": "https://southlondonsilicon.itch.io"
+        }
+      ],
+      "itch": "https://southlondonsilicon.itch.io/multi-modal",
+      "description": "Tegn veiene, kjør bussene og trikkene, og hold London i bevegelse. Gratis demo.",
+      "engine": "JavaScript og WebAssembly",
+      "categories": [
+        "simulering",
+        "strategi"
+      ],
+      "inputs": [
+        "Mus"
+      ],
+      "players": null,
+      "width": 1280,
+      "ratio": "16 / 10",
+      "cover": "covers/multi-modal.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzMwMTY0NzAwLnBuZw==/original/QmoO5e.png",
+      "pixelArt": false,
+      "sizeMB": 4,
+      "fetched": "2026-09-24",
+      "notes": "Vite-bygd nettapp med en wasm-simulering. Laget for datamaskin med mus og tastatur."
+    },
+    {
+      "slug": "legendum",
+      "title": "Legendum",
+      "order": 3,
+      "authors": [
+        {
+          "name": "Vadeum",
+          "url": "https://vadeum.itch.io"
+        }
+      ],
+      "itch": "https://vadeum.itch.io/legendum",
+      "description": "Inkrementelt idle-rollespill der du jobber deg opp til å bli en legende.",
+      "engine": "Godot 4",
+      "categories": [
+        "rollespill",
+        "idle"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 1280,
+      "ratio": "16 / 9",
+      "cover": "covers/legendum.webp",
+      "coverSize": [
+        630,
+        485
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzI3NDgwNzU4LnBuZw==/original/MPDQUF.png",
+      "pixelArt": false,
+      "sizeMB": 71,
+      "fetched": "2026-09-24",
+      "notes": "Godot 4-eksport. Filnavnene har understrek i stedet for mellomrom, og wasm- og pck-filen serveres brotli-komprimert fra Cloudflare."
+    },
+    {
+      "slug": "rock-declutterer",
+      "title": "Rock Declutterer",
+      "order": 4,
+      "authors": [
+        {
+          "name": "leafo",
+          "url": "https://leafo.itch.io"
+        }
+      ],
+      "itch": "https://leafo.itch.io/rock-declutterer",
+      "description": "Sikt og skyt for å rydde bort steinene. Mus eller piltaster sikter, klikk eller X skyter.",
+      "engine": "LÖVE (love.js)",
+      "categories": [
+        "puslespill",
+        "arkade"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 960,
+      "ratio": "4 / 3",
+      "cover": "covers/rock-declutterer.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzMwMDYzNDU0LnBuZw==/original/0WCnV4.png",
+      "pixelArt": false,
+      "sizeMB": 6,
+      "fetched": "2026-09-24",
+      "notes": "LÖVE-spill kjørt i nettleseren med love.js.",
+      "score": {
+        "kilde": "love-lua",
+        "sti": "rock-declutterer/progress.sav",
+        "felt": "scores.classic",
+        "aggreger": "maks",
+        "enhet": "poeng",
+        "retning": "hoyest",
+        "maks": 100000000,
+        "minSek": 45,
+        "tekst": "Beste poengsum i klassisk modus, slik spillet selv fører den på resultatlista si."
+      }
+    },
+    {
+      "slug": "polytrack",
+      "title": "PolyTrack",
+      "order": 5,
+      "authors": [
+        {
+          "name": "Kodub",
+          "url": "https://kodub.itch.io"
+        }
+      ],
+      "itch": "https://kodub.itch.io/polytrack",
+      "description": "Lynraskt racingspill i low-poly, med baneredigerer og mange baner fra fellesskapet.",
+      "engine": "Three.js",
+      "categories": [
+        "racing"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Berøringsskjerm"
+      ],
+      "players": null,
+      "width": 1280,
+      "ratio": "16 / 9",
+      "cover": "covers/polytrack.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzI2MDUxNTMzLnBuZw==/original/AEnurg.png",
+      "pixelArt": false,
+      "sizeMB": 15,
+      "fetched": "2026-09-24",
+      "notes": "Egen motor bygd på Three.js. Den lokale kopien har alle 529 filene med baner, flagg og modeller, men spillet sjekker adressen og starter bare på itch.io og utviklerens egne sider.",
+      "blocked": "Spillet starter bare på utviklerens egne nettsteder. Andre steder viser det bare et varsel om uoffisiell versjon og skjuler menyen, så det går ikke an å spille. Vi omgår ikke denne sperren, så spill det heller på itch.io."
+    },
+    {
+      "slug": "die-in-the-dungeon",
+      "title": "Die in the Dungeon CLASSIC",
+      "order": 6,
+      "authors": [
+        {
+          "name": "Alarts",
+          "url": "https://alarts.itch.io"
+        },
+        {
+          "name": "SexyBuggy",
+          "url": "https://sexybuggy.itch.io"
+        },
+        {
+          "name": "Jaun",
+          "url": "https://jaun.itch.io"
+        },
+        {
+          "name": "aghsshagahdjjdhwhwureuduu",
+          "url": "https://aghsshagahdjjdhwhwureuduu.itch.io"
+        }
+      ],
+      "itch": "https://alarts.itch.io/die-in-the-dungeon",
+      "description": "Turbasert roguelite med kortstokkbygging, der alt dreier seg om terningkombinasjoner.",
+      "engine": "Unity",
+      "categories": [
+        "kortspill",
+        "rollespill"
+      ],
+      "inputs": [
+        "Mus"
+      ],
+      "players": null,
+      "width": 960,
+      "ratio": "16 / 9",
+      "cover": "covers/die-in-the-dungeon.webp",
+      "coverSize": [
+        630,
+        478
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzk5NjE2MTYuZ2lm/original/1IAtVj.gif",
+      "pixelArt": false,
+      "sizeMB": 57,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build. Filnavnene er forkortet til ditd.*, Unity-filene er pakket ut, og datafilen serveres brotli-komprimert."
+    },
+    {
+      "slug": "idle-breakout",
+      "title": "Idle Breakout",
+      "order": 7,
+      "authors": [
+        {
+          "name": "Kodiqi",
+          "url": "https://kodiqi.itch.io"
+        }
+      ],
+      "itch": "https://kodiqi.itch.io/idle-breakout",
+      "description": "Lås opp og oppgrader et utvalg baller som knuser murstein, helt av seg selv.",
+      "engine": "GameMaker",
+      "categories": [
+        "idle",
+        "arkade"
+      ],
+      "inputs": [
+        "Mus"
+      ],
+      "players": null,
+      "width": 1024,
+      "ratio": "4 / 3",
+      "cover": "covers/idle-breakout.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzE4MDAyMjQucG5n/original/ZP612q.png",
+      "pixelArt": false,
+      "sizeMB": 3,
+      "fetched": "2026-09-24",
+      "notes": "GameMaker Studio 2-eksport. Partikkelbildene og lydfilene hentes først ved kjøring og ble lastet ned separat.",
+      "blocked": "Utvikleren har lagt inn en sitelock som bare lar spillet kjøre på godkjente nettsteder. Den lokale kopien viser derfor «HOST ERROR». Vi omgår ikke denne sperren, så spill det heller på itch.io."
+    },
+    {
+      "slug": "generic-fighter-maybe",
+      "title": "Generic Fighter Maybe",
+      "order": 8,
+      "authors": [
+        {
+          "name": "Astrobard Games",
+          "url": "https://astrobardgames.itch.io"
+        },
+        {
+          "name": "Khao Mortadios",
+          "url": "https://khaomortadios.itch.io"
+        }
+      ],
+      "itch": "https://astrobardgames.itch.io/generic-fighter-maybe",
+      "description": "Todimensjonalt slåssespill med kombinasjoner, alene eller mot en venn på samme maskin.",
+      "engine": "GameMaker",
+      "categories": [
+        "action"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Håndkontroll"
+      ],
+      "players": "1–2 spillere lokalt",
+      "width": 960,
+      "ratio": "16 / 9",
+      "cover": "covers/generic-fighter-maybe.webp",
+      "coverSize": [
+        256,
+        256
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzIxNzk0NzA3LnBuZw==/original/%2B4jJs9.png",
+      "pixelArt": false,
+      "sizeMB": 57,
+      "fetched": "2026-09-24",
+      "notes": "GameMaker Studio 2-eksport. Lydfiler og partikkelbilder hentes ved kjøring og ble lastet ned separat."
+    },
+    {
+      "slug": "pikwip",
+      "title": "Pikwip",
+      "order": 9,
+      "authors": [
+        {
+          "name": "Cookiecrayon",
+          "url": "https://cookiecrayon.itch.io"
+        }
+      ],
+      "itch": "https://cookiecrayon.itch.io/pikwip",
+      "description": "Kom deg til toppen av fjellet. Alene eller i lokal co-op.",
+      "engine": "Unity",
+      "categories": [
+        "action"
+      ],
+      "inputs": [],
+      "players": "1–2 spillere lokalt",
+      "width": 1280,
+      "ratio": "16 / 9",
+      "cover": "covers/pikwip.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzUzNDQzNDYucG5n/original/QQZicg.png",
+      "pixelArt": false,
+      "sizeMB": 33,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build."
+    },
+    {
+      "slug": "wildfire",
+      "title": "WildFire",
+      "order": 10,
+      "authors": [
+        {
+          "name": "Salvador",
+          "url": "https://salvadorpalma.itch.io"
+        }
+      ],
+      "itch": "https://salvadorpalma.itch.io/wildfire",
+      "description": "Avslappende tower defense-roguelike der en liten flamme må holde skogen i live.",
+      "engine": "Unity",
+      "categories": [
+        "strategi",
+        "kortspill"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 1280,
+      "ratio": "1280 / 920",
+      "cover": "covers/wildfire.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzE0MjQxNDM1LnBuZw==/original/mVwAcB.png",
+      "pixelArt": false,
+      "sizeMB": 53,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build. Wasm-filen er delt i biter som Cloudflare-workeren setter sammen igjen."
+    },
+    {
+      "slug": "bobbys-bugs",
+      "title": "Bobby's Beautiful Bugs",
+      "order": 11,
+      "authors": [
+        {
+          "name": "digitarium",
+          "url": "https://digitarium.itch.io"
+        }
+      ],
+      "itch": "https://digitarium.itch.io/bobbys-bugs",
+      "description": "Hjelp Bobby med å sortere insektsamlingen hans i en kabalvariant.",
+      "engine": "Unity",
+      "categories": [
+        "kortspill"
+      ],
+      "inputs": [
+        "Mus"
+      ],
+      "players": null,
+      "width": 1280,
+      "ratio": "1280 / 762",
+      "cover": "covers/bobbys-bugs.webp",
+      "coverSize": [
+        261,
+        225
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzE4MDg3OTE1LmpwZw==/original/ivfkqE.jpg",
+      "pixelArt": true,
+      "sizeMB": 34,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build laget til Ludum Dare 56. Filnavnene er forkortet til bobby.*.",
+      "score": {
+        "kilde": "localStorage-json",
+        "nokkel": "digitarium-bbb",
+        "felt": [
+          "wins_easy",
+          "wins_medium",
+          "wins_hard",
+          "wins_brutal"
+        ],
+        "enhet": "seire",
+        "retning": "hoyest",
+        "maks": 5000,
+        "minSek": 60,
+        "tekst": "Antall vunne kabaler, alle vanskelighetsgrader lagt sammen. Spillet teller selv, og tallet leses av herfra når du spiller innlogget."
+      }
+    },
+    {
+      "slug": "get-yoked-2",
+      "title": "GET YOKED: Extreme Bodybuilding",
+      "order": 12,
+      "authors": [
+        {
+          "name": "gregs-games",
+          "url": "https://gregs-games.itch.io"
+        }
+      ],
+      "itch": "https://gregs-games.itch.io/get-yoked-2",
+      "description": "Komisk roguelike med kortstokkbygging om ekstrem kroppsbygging.",
+      "engine": "Unity",
+      "categories": [
+        "kortspill"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 960,
+      "ratio": "960 / 644",
+      "cover": "covers/get-yoked-2.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzE5NDg3OTk2LnBuZw==/original/axbMzw.png",
+      "pixelArt": false,
+      "sizeMB": 252,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build. Datafilen og FMOD-lydbanken er delt i biter som Cloudflare-workeren setter sammen igjen.",
+      "warning": "Stor nedlasting på rundt 250 MB, så første oppstart tar litt tid."
+    },
+    {
+      "slug": "hardware-tycoon",
+      "title": "Hardware Tycoon",
+      "order": 13,
+      "authors": [
+        {
+          "name": "hi",
+          "url": "https://haxor1337.itch.io"
+        }
+      ],
+      "itch": "https://haxor1337.itch.io/hardware-tycoon",
+      "description": "Tycoon-spill der du bygger opp ditt eget maskinvareselskap.",
+      "engine": "Construct 2",
+      "categories": [
+        "strategi",
+        "simulering"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Mus"
+      ],
+      "players": null,
+      "width": 1024,
+      "ratio": "16 / 9",
+      "cover": "covers/hardware-tycoon.webp",
+      "coverSize": [
+        315,
+        250
+      ],
+      "coverSource": "https://img.itch.zone/aW1hZ2UvNzg2MjkvMzc4NDk3LnBuZw==/original/9NRGWa.png",
+      "pixelArt": false,
+      "sizeMB": 44,
+      "fetched": "2026-09-24",
+      "notes": "Construct 2-eksport med 234 filer."
+    },
+    {
+      "slug": "klifur",
+      "title": "Klifur",
+      "order": 14,
+      "authors": [
+        {
+          "name": "Torfi",
+          "url": "https://torfi.itch.io"
+        }
+      ],
+      "itch": "https://torfi.itch.io/klifur",
+      "description": "Puslespill om innendørs buldring, med fysikk.",
+      "engine": "Unity",
+      "categories": [
+        "sport",
+        "puslespill"
+      ],
+      "inputs": [],
+      "players": null,
+      "width": 1280,
+      "ratio": "16 / 9",
+      "cover": "covers/klifur.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzkzNTg1OTUucG5n/original/YnBfBz.png",
+      "pixelArt": false,
+      "sizeMB": 45,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build. De gz-komprimerte Unity-filene er pakket ut, og wasm-filen serveres brotli-komprimert."
+    },
+    {
+      "slug": "tanuki-sunset",
+      "title": "Tanuki Sunset Classic",
+      "order": 15,
+      "authors": [
+        {
+          "name": "Rewind Games",
+          "url": "https://rewindgames.itch.io"
+        }
+      ],
+      "itch": "https://rewindgames.itch.io/tanuki-sunset",
+      "description": "Vaskebjørner på longboard i et avslappende arkadespill i retrostil.",
+      "engine": "Unity",
+      "categories": [
+        "racing",
+        "arkade"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Håndkontroll"
+      ],
+      "players": null,
+      "width": 980,
+      "ratio": "980 / 668",
+      "cover": "covers/tanuki-sunset.webp",
+      "coverSize": [
+        630,
+        312
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzMyOTAwNTQucG5n/original/0K5ljU.png",
+      "pixelArt": false,
+      "sizeMB": 76,
+      "fetched": "2026-09-24",
+      "notes": "Unity 2019 WebGL-build. Datafilen er delt i biter som Cloudflare-workeren setter sammen igjen."
+    },
+    {
+      "slug": "dynamine",
+      "title": "Dynamine",
+      "order": 16,
+      "authors": [
+        {
+          "name": "HexagonNico",
+          "url": "https://hexagonnico.itch.io"
+        }
+      ],
+      "itch": "https://hexagonnico.itch.io/dynamine",
+      "description": "Minesveiper, hvis den faktisk handlet om gruvedrift.",
+      "engine": "Godot 4",
+      "categories": [
+        "puslespill"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Mus",
+        "Håndkontroll"
+      ],
+      "players": null,
+      "width": 1280,
+      "ratio": "16 / 9",
+      "cover": "covers/dynamine.webp",
+      "coverSize": [
+        630,
+        355
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzI5OTYyMDc1LnBuZw==/original/icG5NO.png",
+      "pixelArt": false,
+      "sizeMB": 82,
+      "fetched": "2026-09-24",
+      "notes": "Godot 4-eksport. Wasm-filen serveres brotli-komprimert, og pck-filen er delt i biter."
+    },
+    {
+      "slug": "soccer-physics",
+      "title": "Soccer Physics",
+      "order": 17,
+      "authors": [
+        {
+          "name": "Otto Ojala",
+          "url": "https://ottoojala.itch.io"
+        }
+      ],
+      "itch": "https://ottoojala.itch.io/soccer-physics",
+      "description": "Fysikkbasert ettknappsfotball som passer best med venner på samme tastatur.",
+      "engine": "Unity",
+      "categories": [
+        "sport"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Mus"
+      ],
+      "players": "1–4 spillere lokalt",
+      "width": 900,
+      "ratio": "9 / 5",
+      "cover": "covers/soccer-physics.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzE0MjQwNTY1LnBuZw==/original/n2Jjuv.png",
+      "pixelArt": false,
+      "sizeMB": 22,
+      "fetched": "2026-09-24",
+      "notes": "Unity WebGL-build."
+    },
+    {
+      "slug": "the-machinegg",
+      "title": "The MachinEGG",
+      "order": 18,
+      "authors": [
+        {
+          "name": "JC - QuantumGames",
+          "url": "https://quantumgames-studio.itch.io"
+        }
+      ],
+      "itch": "https://quantumgames-studio.itch.io/the-machinegg",
+      "description": "Fra én enkelt høne til en enorm eggfabrikk under jorden.",
+      "engine": "PixiJS",
+      "categories": [
+        "simulering",
+        "idle"
+      ],
+      "inputs": [
+        "Mus"
+      ],
+      "players": null,
+      "width": 1200,
+      "ratio": "1200 / 650",
+      "cover": "covers/the-machinegg.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzI4NTc1MDIyLnBuZw==/original/S06M20.png",
+      "pixelArt": false,
+      "sizeMB": 5,
+      "fetched": "2026-09-24",
+      "notes": "Egen JavaScript-motor på PixiJS. Spillet henter PixiJS og en skrift fra eksterne CDN-er.",
+      "score": [
+        {
+          "id": "standard",
+          "navn": "Endless: inntekt",
+          "kilde": "localStorage-json",
+          "nokkel": "chickenIdleEndlessSave_guest",
+          "felt": "state.totalEarnings",
+          "enhet": "kr",
+          "retning": "hoyest",
+          "maks": 1000000000000000,
+          "minSek": 60,
+          "tekst": "Samlet inntekt i Endless-modus. Spillet lagrer selv, og tallet leses av herfra mens du spiller innlogget."
+        },
+        {
+          "id": "speedrun",
+          "navn": "Speedrun: tid",
+          "kilde": "localStorage",
+          "nokkel": "pb_speedrun",
+          "format": "tid",
+          "enhet": "sekunder",
+          "retning": "lavest",
+          "maks": 10000000,
+          "minSek": 60,
+          "tekst": "Beste tid på å fullføre Speedrun-modus (fra start til du pensjonerer gården). Laveste tid vinner."
+        }
+      ]
+    },
+    {
+      "slug": "infinidle",
+      "title": "INFINIDLE",
+      "order": 19,
+      "authors": [
+        {
+          "name": "DevBanana",
+          "url": "https://devbanana.itch.io"
+        }
+      ],
+      "itch": "https://devbanana.itch.io/infinidle",
+      "description": "Wordle som aldri tar slutt: gjett det ene engelske fembokstavsordet etter det andre og se hvor lang rekke du klarer.",
+      "engine": "Unity",
+      "categories": [
+        "puslespill"
+      ],
+      "inputs": [
+        "Tastatur",
+        "Mus",
+        "Berøringsskjerm"
+      ],
+      "players": null,
+      "width": 960,
+      "ratio": "8 / 5",
+      "cover": "covers/infinidle.webp",
+      "coverSize": [
+        630,
+        500
+      ],
+      "coverSource": "https://img.itch.zone/aW1nLzg1NDIzMzEuanBn/original/v9eaCw.jpg",
+      "pixelArt": false,
+      "sizeMB": 23,
+      "fetched": "2026-09-28",
+      "notes": "Unity 2019 WebGL-build med UnityLoader og .unityweb-filer, brukt som den er. Har en daglig utfordring og en ubegrenset modus.",
+      "score": {
+        "kilde": "unity",
+        "nokkel": "highscore",
+        "enhet": "ord",
+        "retning": "hoyest",
+        "maks": 10000,
+        "minSek": 60,
+        "tekst": "Lengste rekke med riktig gjettede ord i Unlimited-modus (spillets «BEST»)."
+      }
+    }
+  ]
+}

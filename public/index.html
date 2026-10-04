@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpillSide</title>
+<meta name="description" content="Et lite spillbibliotek med lokale kopier av HTML5-spill fra itch.io.">
+<meta name="color-scheme" content="dark light">
+<script>
+  // Sett lagret tema før første opptegning, så siden ikke blinker.
+  try {
+    var t = localStorage.getItem('spillside:tema');
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fonten lastes uten å blokkere opptegning og app.js, så et tregt fonts.googleapis.com ikke holder igjen biblioteket. -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"></noscript>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#innhold">Hopp til innholdet</a>
+
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="SpillSide, til biblioteket">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect x="4" y="7" width="6" height="19" rx="1.6"/>
+      <rect x="12" y="4" width="6" height="22" rx="1.6"/>
+      <rect x="20.2" y="8.2" width="6" height="18" rx="1.6" transform="rotate(-12 23.2 17.2)"/>
+      <rect x="2" y="27" width="28" height="2.4" rx="1.2"/>
+    </svg>
+    <span>SpillSide</span>
+  </a>
+  <div class="topbar-main"><div class="topbar-inner">
+  <form class="search" role="search" onsubmit="return false">
+    <label class="sr-only" for="sok">Søk etter spill eller skaper</label>
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+    <input id="sok" type="search" placeholder="Søk etter spill eller skaper" autocomplete="off" spellcheck="false">
+  </form>
+  <button class="btn btn-quiet konto-btn" type="button" id="konto" aria-haspopup="dialog" aria-controls="konto-dialog">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.6"/><path d="M4.8 20c.7-3.8 3.5-6 7.2-6s6.5 2.2 7.2 6"/></svg>
+    <span class="konto-navn">Logg inn</span>
+  </button>
+  <button class="icon-btn theme-btn" type="button" id="tema" aria-label="Bytt til lys modus">
+    <svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
+    <svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></svg>
+  </button>
+  </div></div>
+</header>
+
+<div class="shell">
+  <nav class="sidenav" id="meny" aria-label="Biblioteket"></nav>
+  <main id="innhold" tabindex="-1">
+    <div id="visning">
+      <p class="loading">Henter biblioteket …</p>
+    </div>
+  </main>
+  <p class="sr-only" id="status" role="status" aria-live="polite"></p>
+</div>
+
+<dialog class="konto-dialog" id="konto-dialog" aria-labelledby="konto-tittel">
+  <form method="dialog" class="konto-form" novalidate>
+    <div class="konto-head">
+      <h2 id="konto-tittel">Logg inn</h2>
+      <button class="icon-btn konto-lukk" type="button" value="lukk" aria-label="Lukk">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="konto-moduser" role="tablist" aria-label="Logg inn eller lag ny bruker">
+      <button class="tab" type="button" role="tab" data-modus="inn" aria-selected="true">Logg inn</button>
+      <button class="tab" type="button" role="tab" data-modus="ny" aria-selected="false">Ny bruker</button>
+    </div>
+    <p class="konto-intro" data-for="ny">Et brukernavn og et passord er alt som trengs. Ingen e-post. Brukernavnet vises på topplistene.</p>
+    <label class="felt"><span>Brukernavn</span><input name="navn" type="text" autocomplete="username" autocapitalize="off" spellcheck="false" maxlength="16" required></label>
+    <label class="felt"><span>Passord</span><input name="passord" type="password" autocomplete="current-password" minlength="6" maxlength="72" required></label>
+    <p class="konto-feil" role="alert" hidden></p>
+    <div class="konto-knapper">
+      <button class="btn btn-primary" type="submit" data-send>Logg inn</button>
+    </div>
+    <div class="konto-innlogget" hidden>
+      <p>Du er logget inn som <strong class="konto-hvem"></strong>.</p>
+      <button class="btn btn-ghost" type="button" data-action="logg-ut">Logg ut</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="samtykke" id="samtykke" role="region" aria-label="Lagring i nettleseren" hidden>
+  <p>SpillSide husker favoritter, sist spilt og valgt tema i nettleseren din. Logger du inn, settes også en innloggingskapsel. Spillene lagrer dessuten sine egne lagringer og innstillinger. Ingenting deles med andre.</p>
+  <div class="samtykke-knapper">
+    <button class="btn btn-primary" type="button" data-samtykke="ja">Greit</button>
+    <button class="btn btn-ghost" type="button" data-samtykke="nei">Nei takk</button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="app.js" defer></script>
+</body>
+</html>

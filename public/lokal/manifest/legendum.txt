@@ -1,0 +1,10 @@
+https://html-classic.itch.zone/html/19292072
+index.html
+Incremental Fantasy.js=>Incremental_Fantasy.js
+Incremental Fantasy.wasm=>Incremental_Fantasy.wasm
+Incremental Fantasy.pck=>Incremental_Fantasy.pck
+Incremental Fantasy.png=>Incremental_Fantasy.png
+Incremental Fantasy.icon.png=>Incremental_Fantasy.icon.png
+Incremental Fantasy.apple-touch-icon.png=>Incremental_Fantasy.apple-touch-icon.png
+Incremental Fantasy.audio.worklet.js=>Incremental_Fantasy.audio.worklet.js
+Incremental Fantasy.audio.position.worklet.js=>Incremental_Fantasy.audio.position.worklet.js

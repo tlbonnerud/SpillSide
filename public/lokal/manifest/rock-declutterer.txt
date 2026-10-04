@@ -1,0 +1,6 @@
+https://html-classic.itch.zone/html/19279242-1998558
+index.html
+game.js
+love.js
+love.wasm
+game.data

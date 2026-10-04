@@ -1,0 +1,9 @@
+https://html-classic.itch.zone/html/19376561
+index.html
+assets/main-ZtJFn9TX.js
+assets/scene-B4r-AGcW.js
+assets/main-DmxwXwzb.css
+assets/Gabarito-Black-Cg2kJKFC.woff2
+assets/Gabarito-Bold-De5BHTC6.woff2
+assets/Gabarito-SemiBold-CBFuDpD8.woff2
+wasm/transit.wasm

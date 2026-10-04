@@ -1,0 +1,13 @@
+https://html-classic.itch.zone/html/18447438/Bobby%27s%20Beautiful%20Bugs
+index.html
+Build/Bobby's Beautiful Bugs.loader.js=>Build/bobby.loader.js
+Build/Bobby's Beautiful Bugs.data.unityweb=>Build/bobby.data.unityweb
+Build/Bobby's Beautiful Bugs.framework.js.unityweb=>Build/bobby.framework.js.unityweb
+Build/Bobby's Beautiful Bugs.wasm.unityweb=>Build/bobby.wasm.unityweb
+TemplateData/favicon.ico
+TemplateData/fullscreen-button.png
+TemplateData/progress-bar-empty-dark.png
+TemplateData/progress-bar-full-dark.png
+TemplateData/style.css
+TemplateData/unity-logo-dark.png
+TemplateData/webgl-logo.png

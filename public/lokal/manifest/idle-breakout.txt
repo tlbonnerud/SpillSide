@@ -1,0 +1,56 @@
+https://html-classic.itch.zone/html/9939239
+html5game/Idle Breakout.js
+html5game/Idle Breakout_texture_0.png
+html5game/Idle Breakout_texture_1.png
+html5game/Idle Breakout_texture_2.png
+html5game/Idle Breakout_texture_3.png
+html5game/particles/IDR_GIF1.png
+html5game/particles/IDR_GIF10.png
+html5game/particles/IDR_GIF11.png
+html5game/particles/IDR_GIF12.png
+html5game/particles/IDR_GIF13.png
+html5game/particles/IDR_GIF14.png
+html5game/particles/IDR_GIF15.png
+html5game/particles/IDR_GIF2.png
+html5game/particles/IDR_GIF3.png
+html5game/particles/IDR_GIF4.png
+html5game/particles/IDR_GIF5.png
+html5game/particles/IDR_GIF6.png
+html5game/particles/IDR_GIF7.png
+html5game/particles/IDR_GIF8.png
+html5game/particles/IDR_GIF9.png
+html5game/sound_0.mp3
+html5game/sound_0.ogg
+html5game/sound_0_alt.mp3
+html5game/sound_0_alt.ogg
+html5game/sound_1.mp3
+html5game/sound_1.ogg
+html5game/sound_2.mp3
+html5game/sound_2.ogg
+html5game/sound_3.mp3
+html5game/sound_3.ogg
+html5game/sound_3_alt.mp3
+html5game/sound_3_alt.ogg
+html5game/sound_4.mp3
+html5game/sound_4.ogg
+html5game/sound_5.mp3
+html5game/sound_5.ogg
+html5game/sound_6.mp3
+html5game/sound_6.ogg
+html5game/sound_click.mp3
+html5game/sound_click.ogg
+html5game/sound_demon.mp3
+html5game/sound_demon.ogg
+html5game/sound_end.mp3
+html5game/sound_end.ogg
+html5game/sound_laser.mp3
+html5game/sound_laser.ogg
+html5game/sound_laser_alt.mp3
+html5game/sound_laser_alt.ogg
+html5game/sound_scatter.mp3
+html5game/sound_scatter.ogg
+html5game/tph_coolmathAds.js
+html5game/vph_sitelock.js
+html5game/xph_poki.js
+html5game/yph_kongAPIextension.js
+index.html

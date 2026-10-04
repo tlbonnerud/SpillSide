@@ -1,0 +1,6 @@
+https://html-classic.itch.zone/html/17614747
+index.html
+Build/Web.loader.js
+Build/Web.framework.js.gz
+Build/Web.data.gz
+Build/Web.wasm.gz

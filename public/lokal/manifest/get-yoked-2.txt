@@ -1,0 +1,15 @@
+https://html-classic.itch.zone/html/15707106/Web
+Build/Web.data
+Build/Web.framework.js
+Build/Web.loader.js
+Build/Web.wasm
+StreamingAssets/Master.bank
+StreamingAssets/Master.strings.bank
+TemplateData/favicon.ico
+TemplateData/fullscreen-button.png
+TemplateData/progress-bar-empty-dark.png
+TemplateData/progress-bar-full-dark.png
+TemplateData/style.css
+TemplateData/unity-logo-dark.png
+TemplateData/unity-logo-title-footer.png
+index.html

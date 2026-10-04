@@ -1,0 +1,12 @@
+https://html-classic.itch.zone/html/9244452
+Build/webglbuild.data
+Build/webglbuild.framework.js
+Build/webglbuild.loader.js
+Build/webglbuild.wasm
+TemplateData/favicon.ico
+TemplateData/fullscreen-button.png
+TemplateData/progress-bar-empty-dark.png
+TemplateData/progress-bar-full-dark.png
+TemplateData/style.css
+TemplateData/unity-logo-dark.png
+index.html

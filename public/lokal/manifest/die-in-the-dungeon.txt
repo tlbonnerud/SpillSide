@@ -1,0 +1,6 @@
+https://html-classic.itch.zone/html/7330268/Die%20in%20the%20Dungeon%201.6.2f%20%5BWEB%5D
+index.html
+Build/Die in the Dungeon 1.6.2f [WEB].loader.js=>Build/ditd.loader.js
+Build/Die in the Dungeon 1.6.2f [WEB].framework.js.gz=>Build/ditd.framework.js.gz
+Build/Die in the Dungeon 1.6.2f [WEB].data.gz=>Build/ditd.data.gz
+Build/Die in the Dungeon 1.6.2f [WEB].wasm.gz=>Build/ditd.wasm.gz

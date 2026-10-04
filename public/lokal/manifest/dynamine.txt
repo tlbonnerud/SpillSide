@@ -1,0 +1,10 @@
+https://html-classic.itch.zone/html/16918088-1974750
+index.apple-touch-icon.png
+index.audio.position.worklet.js
+index.audio.worklet.js
+index.html
+index.icon.png
+index.js
+index.pck
+index.png
+index.wasm
